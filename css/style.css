@@ -73,3 +73,24 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.button{
+    width: 12px;
+    height: 12px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.buttongroup{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+
+}
+.sss{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sss img{
+    width: 100px;
+    height: 100px;
+}
