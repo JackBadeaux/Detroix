@@ -8,13 +8,15 @@
 .banner {
     display: flex;
     height: 20px;
-    background-color: rgb(2, 2, 102);
+    background-color: #0b0b31;
     align-items: center;
     font-size: small;
 }
-header{
+
+header {
     background-color: #f2f3f5;
 }
+
 .bannernav {
     display: flex;
     list-style-type: none;
@@ -28,8 +30,9 @@ header{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.473);
 }
+
 .bannernav li {
-    color:rgba(255, 255, 255, 0.473) ;
+    color: rgba(255, 255, 255, 0.473);
 }
 
 .bannerright {
@@ -42,11 +45,12 @@ header{
     margin-left: 30px;
 }
 
-.logoname{
+.logoname {
     margin-left: 40px;
-    margin-top: 30px;
-    
+    margin-top: 20px;
+
 }
+
 .navbar {
     display: flex;
     list-style-type: none;
@@ -57,40 +61,78 @@ header{
 
 .navbar li a {
     text-decoration: none;
-    background-color: rgb(2, 2, 102);
+    background-color: #0b0b31;
     border-radius: 5px;
     padding: 10px;
     color: rgb(255, 255, 255);
 
 }
-.stockimage{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
+
+.stockimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-.navrow{
+
+.navrow {
     display: flex;
     justify-content: space-between;
 }
-.button{
-    width: 12px;
-    height: 12px;
+
+.button {
+    width: 20px;
+    height: 20px;
     background-color: grey;
     border-radius: 50%;
 }
-.buttongroup{
+
+.buttongroup {
     display: flex;
     justify-content: center;
     gap: 2px;
+    margin: 10px;
 
 }
-.sss{
+
+.ssscontainer {
     display: flex;
     justify-content: space-evenly;
-
+    text-align: flex-start;
 }
-.sss img{
-    width: 100px;
-    height: 100px;
+
+.sssitem img {
+    margin-left: 20px;
+}
+
+.sssitem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    border-top: 2px solid #ccc;
+}
+.sssitem:not(:last-child){
+    border-right: 2px solid #ccc;
+}
+.sssitem h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+.sssitem p {
+    color: #5e5656;
+    margin: 25px
+}
+.sssbtn {
+    background-color: #213349;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 25px;
+}
+.endbanner{
+    background-color: #0b0b31;
+    color: white;
+    padding: 25px;
 }
