@@ -124,7 +124,7 @@ header {
     color: #5e5656;
     margin: 25px
 }
-.sssbtn {
+.morebtn {
     background-color: #213349;
     color: white;
     padding: 10px;
@@ -139,12 +139,17 @@ header {
 .soncontainer{
     display: flex;
     background: linear-gradient( to bottom ,rgb(18, 18, 95),#0b0b31);
-    height: 500px;
     width: 100%;
     justify-content: space-evenly;
     color: white;
     
     
+}
+.sonitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .sonitem ul {
   list-style: none;
@@ -154,3 +159,13 @@ header {
     content: "⚙️";
     margin-right: 8px;
 } 
+.sonp{
+    width: 500px;
+}
+.sonitem h3::before{
+    content:"🗨️" ;
+    margin-right: 8px;
+}
+.sonitem h2{
+    margin-top: 20px
+}
