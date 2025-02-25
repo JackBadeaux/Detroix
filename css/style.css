@@ -143,8 +143,9 @@ header {
     display: flex;
     background: linear-gradient( to bottom ,rgb(18, 18, 95),#0b0b31);
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: white;
+    
     
     
 }
@@ -157,6 +158,9 @@ header {
 .sonitem ul {
   list-style: none;
   padding: 20px;
+}
+.sonitem ul li{
+    padding: 20px;
 }
 .sonitem ul li::before{ 
     content: "⚙️";
@@ -190,7 +194,8 @@ header {
 .calh2p{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px
+    margin-left: 20px;
+    flex-direction: column;
 }
 .cal2{
     width: 100px;
@@ -215,9 +220,11 @@ header {
     margin-top: 20px;
 }
 .calgroup p {
-width: 50%;
+width: 250px;
+text-wrap: wrap;
 }
 .opgroup{
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
