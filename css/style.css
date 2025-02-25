@@ -132,7 +132,25 @@ header {
     margin: 25px;
 }
 .endbanner{
-    background-color: #0b0b31;
+    background-color: #0f0f61;
     color: white;
     padding: 25px;
 }
+.soncontainer{
+    display: flex;
+    background: linear-gradient( to bottom ,rgb(18, 18, 95),#0b0b31);
+    height: 500px;
+    width: 100%;
+    justify-content: space-evenly;
+    color: white;
+    
+    
+}
+.sonitem ul {
+  list-style: none;
+  padding: 20px;
+}
+.sonitem ul li::before{ 
+    content: "⚙️";
+    margin-right: 8px;
+} 
